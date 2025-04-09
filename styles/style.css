@@ -48,6 +48,7 @@ body {
     width: 100%;
     background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
     background-size: cover;
+
 }
 
 .banner .container {
@@ -128,4 +129,102 @@ body {
 
 .footer h4 {
     margin-bottom: 0;
+}
+
+h2,
+span {
+    color: #e40054;
+    opacity: 50%;
+    font-weight: bolder;
+}
+
+.card {
+    background-color: silver;
+    background-size: cover;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card-login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container .card-cadastro {
+    background-color: silver;
+    background-size: cover;
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.card-cadastro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.formulario {
+    width: 80%;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+#email_input {
+    color: var(--azul);
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#senha_input {
+    color: var(--azul);
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#codigo_input {
+    color: var(--azul);
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#nome_input {
+    color: var(--azul);
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#confirmacao_senha_input {
+    color: var(--azul);
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.botao {
+    padding: 5px;
+    color: white;
+    background-color: #e40054;
+    border-radius: 5px;
+    border-style: none;
+    text-align: center;
+    width: 100px;
+    margin: 2% auto;
+    display: block;
 }
